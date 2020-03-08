@@ -23,7 +23,7 @@ def perform
   File.write("routes.rb", "Rails.application.routes.draw do\n  root 'home#index'\n  devise_for :users\nend", mode: "w")
   puts "<== App Rails instaléé <> Devise installée ==>"
   puts " <== Go to http://localhost:3000/ ==>"
-  puts "  <== Good luck, Have fun ==>"
+  puts "  <== Good luck, Have fun ! ==>"
 end
 
 perform
